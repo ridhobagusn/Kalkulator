@@ -1,0 +1,22 @@
+"""
+#######
+@author
+Ridho Bagus Nugroho
+#######
+"""
+
+print ("Calculator")
+print ("1. Penjmlahan\n2. Pengurangan")
+a = int (input())
+if a==1:
+    b= int(input("Masukan Angka Pertama = "))
+    print (b, "+ Angka Kedua = ")
+    c= int (input("Masukan Angka Kedua = "))
+    d=b+c
+    print (b,"+",c,"=",d)
+elif a==2:
+    e= int(input("Masukan Angka Pertama = "))
+    print (e, "- Angka Kedua = ")
+    f= int (input("Masukan Angka Kedua = "))
+    g=e-f
+    print (e,"-",f,"=",g)
